@@ -4,13 +4,13 @@ pages:
   cache:
     key:
       files:
-        - package-lock.json
-      prefix: npm
+        - yarn.json
+      prefix: yarn
     paths:
       - node_modules/
   script:
-    - npm install
-    - npm run build
+    - yarn
+    - yarn build
     - cp -a dist/. public/
   artifacts:
     paths:
