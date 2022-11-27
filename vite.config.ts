@@ -21,7 +21,7 @@ const plugins = [
 
 export default defineConfig(() => {
   return {
-    base: 'https://github.com/ynsem/cv',
+    base: '/cv/',
     ...common,
     ...plugins
   }
