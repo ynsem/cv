@@ -7,11 +7,11 @@ const common = {
   server: {
     port: 3000
   },
-  resolve: {
-    alias: {
-      '@': resolve(__dirname, 'src'),
-    },
-  },
+  // resolve: {
+  //   alias: {
+  //     '@': resolve(__dirname, 'src'),
+  //   },
+  // },
 }
 
 const plugins = [
