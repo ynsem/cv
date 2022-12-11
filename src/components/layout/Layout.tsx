@@ -4,7 +4,7 @@ import * as S from './layout.style'
 const Layout = () => {
   return (
     <S.Layout>
-      LayoutNew
+      LayoutNew GH-Pages text
     </S.Layout>
   )
 }
